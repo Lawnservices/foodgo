@@ -15,8 +15,8 @@ document.querySelectorAll("#navMenu a").forEach(link => {
 
 document.getElementById("year").textContent = new Date().getFullYear();
 
-const youtubeUrl = "https://www.youtube.com/channel/UCvQGGUoVlrZbyHybgE5HNCQ";
+// const youtubeUrl = "https://www.youtube.com/channel/UCvQGGUoVlrZbyHybgE5HNCQ";
 
-document.querySelectorAll("[data-youtube-link]").forEach(link => {
-  link.href = youtubeUrl;
-});
+// document.querySelectorAll("[data-youtube-link]").forEach(link => {
+//   link.href = youtubeUrl;
+// });
